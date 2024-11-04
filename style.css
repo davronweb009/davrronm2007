@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.color {
+    background-color: #F3D7B7;
+}
+
+.container1 {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F3D7B7;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    gap: 90px;
+    background-color: #F3D7B7;
+    height: 760px;
+}
+
+.section1_box1 {
+    display: flex;
+    width: 1200px;
+    flex-direction: column;
+    gap: 50px;
+    align-items: start;
+    justify-content: center;
+    margin-top: 120px;
+
+}
+
+button {
+    width: 250px;
+    height: 50px;
+    color: white;
+    background-color: #0A775F;
+    border: 1px solid #0A775F;
+    border-radius: 20px;
+}
+
+.section1_box1 h2 {
+    font-size: 64px;
+
+}
+
+.section1_box1 p {
+    font-size: large;
+}
+
+.section1_box2 {
+    margin-top: 120px;
+
+}
+
+.img1 {
+    position: absolute;
+    top: 30px;
+    left: 540px;
+    animation-name: dumaloq;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    
+    z-index: 2;
+
+
+}
+
+@keyframes dumaloq {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.color {
+
+    height: 800px;
+}
+
+.img2 {
+    position: relative;
+    z-index: 1;
+    
+}
+
+.div1 {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    width: 930px;
+}
+
+.div1 h2 {
+    font-size: x-large;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box4 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box6 {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.h11 {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    font-size: xx-large;
+}
+
+.img5:hover {
+    transform: scale(1.5);
+    transition: 1.7s;
+}
+
+.container2 {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #F3D7B7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.color1 {
+    background-color: #F3D7B7;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.box77 {
+    display: flex;
+    gap: 30px;
+}
